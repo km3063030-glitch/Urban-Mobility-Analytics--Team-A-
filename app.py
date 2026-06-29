@@ -236,4 +236,4 @@ for _, row in df.iterrows():
 
 HeatMap(heat_data).add_to(m)
 
-st_folium(m, width=1000, height=600)
+st_folium(m, width=1000, height=600, returned_objects=[])

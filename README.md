@@ -18,7 +18,7 @@ A comprehensive Python Data Science solution for analyzing urban transit systems
 
 Explore the interactive mobility heatmap with zone-level insights:
 
- **[View City Mobility Map](./city_mobility_map.html)** — Click to open the Folium-based interactive map showing real-time zone analytics, passenger density heatmaps, and delay hotspots.
+![View City Mobility Map](./Zone_Map.png)
 
 **Map Features:**
 - **Zone Markers:** Color-coded circles (Green = Low congestion, Orange = Medium, Red = High)

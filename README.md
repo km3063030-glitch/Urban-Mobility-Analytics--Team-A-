@@ -1,4 +1,4 @@
-# 🚌 Urban Mobility Analytics Dashboard
+#  Urban Mobility Analytics Dashboard
 
 A comprehensive Python Data Science solution for analyzing urban transit systems, detecting congestion patterns, and optimizing route efficiency using ETL, statistical analysis, and interactive visualization.
 
@@ -6,7 +6,7 @@ A comprehensive Python Data Science solution for analyzing urban transit systems
 
 ---
 
-## 📊 Dashboard Preview
+##  Dashboard Preview
 
 ![Urban Mobility Analytics Dashboard](./mobility_dashboard.png)
 
@@ -14,11 +14,11 @@ A comprehensive Python Data Science solution for analyzing urban transit systems
 
 ---
 
-## 🗺️ Interactive Zone Map
+##  Interactive Zone Map
 
 Explore the interactive mobility heatmap with zone-level insights:
 
-📍 **[View City Mobility Map](./city_mobility_map.html)** — Click to open the Folium-based interactive map showing real-time zone analytics, passenger density heatmaps, and delay hotspots.
+ **[View City Mobility Map](./city_mobility_map.html)** — Click to open the Folium-based interactive map showing real-time zone analytics, passenger density heatmaps, and delay hotspots.
 
 **Map Features:**
 - **Zone Markers:** Color-coded circles (Green = Low congestion, Orange = Medium, Red = High)
@@ -28,7 +28,7 @@ Explore the interactive mobility heatmap with zone-level insights:
 
 ---
 
-## 📋 Files Included
+##  Files Included
 
 | File | Purpose |
 |------|---------|
@@ -41,7 +41,7 @@ Explore the interactive mobility heatmap with zone-level insights:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Data Processing:** Pandas, NumPy
 - **Visualization:** Matplotlib, Folium, Streamlit
@@ -50,7 +50,7 @@ Explore the interactive mobility heatmap with zone-level insights:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Option 1: Run Streamlit App (Recommended)
 
@@ -86,7 +86,7 @@ Simply open `city_mobility_map.html` in your web browser to explore the zone-bas
 
 ---
 
-## 📦 Deploy on Streamlit Cloud
+##  Deploy on Streamlit Cloud
 
 1. **Push to GitHub:**
    ```bash
@@ -104,7 +104,7 @@ Simply open `city_mobility_map.html` in your web browser to explore the zone-bas
 
 ---
 
-## 📈 What This Dashboard Does
+##  What This Dashboard Does
 
 ### 1. **ETL Pipeline**
 - Handles missing values (median imputation by route)
@@ -132,7 +132,7 @@ Simply open `city_mobility_map.html` in your web browser to explore the zone-bas
 
 ---
 
-## 📊 Key Metrics
+##  Key Metrics
 
 | Metric | Calculation |
 |--------|-------------|
@@ -143,7 +143,7 @@ Simply open `city_mobility_map.html` in your web browser to explore the zone-bas
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Transit Planners:** Identify bottleneck routes and congestion zones
 - **Operations Teams:** Optimize scheduling and resource allocation
@@ -152,7 +152,7 @@ Simply open `city_mobility_map.html` in your web browser to explore the zone-bas
 
 ---
 
-## 📝 Data Schema
+##  Data Schema
 
 ```
 Dataset: 500 transit records (2022-01-01 onwards)
@@ -169,7 +169,7 @@ Columns:
 
 ---
 
-## 🔧 Customization
+##  Customization
 
 **To analyze different zones:**
 ```python
@@ -193,7 +193,7 @@ df['peak_load'] = pd.cut(
 
 ---
 
-## 📚 Resources
+##  Resources
 
 - [Streamlit Documentation](https://docs.streamlit.io/)
 - [Folium for Geospatial Visualization](https://python-visualization.github.io/folium/)
@@ -201,7 +201,7 @@ df['peak_load'] = pd.cut(
 
 ---
 
-## 👥 Team
+##  Team
 
 **Hackathon:** Urban Mobility Analytics – Set A  
 **Contributors:** Data Science Team  
@@ -209,13 +209,13 @@ df['peak_load'] = pd.cut(
 
 ---
 
-## 📄 License
+##  License
 
 Open source for educational and research purposes.
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 | Issue | Solution |
 |-------|----------|
@@ -224,5 +224,5 @@ Open source for educational and research purposes.
 | Slow performance | Reduce dataset size or use `@st.cache_data` decorator |
 
 ---
+Made by 
 
-**Happy analyzing! 🚌📊**

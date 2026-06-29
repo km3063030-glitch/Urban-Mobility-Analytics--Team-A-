@@ -16,7 +16,7 @@ This repository contains an Urban Mobility Analytics dashboard as per the "Set A
 2. Launch Jupyter Notebook:
    ```bash
    jupyter notebook
-   ```
+   ``` U
 3. Open `urban_mobility_analytics.ipynb` and run the cells.
 
 ## How to run the Streamlit App locally
